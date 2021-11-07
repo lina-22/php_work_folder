@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <div id="titre" align="center"> <h2>Inscription</h2> </div>
+    <br>
+
+    <form action="">
+       <label for="">Nom</label>
+       <input placeholder="Saisir votre nom" type="text" id="nom" class="saisie">
+    
+      <br>
+  
+        <label for="">Prénom</label>
+        <input placeholder="Saisir votre prénom" type="text" id="prénom" class="saisie">
+     
+        <br>
+   
+        <label for="">Mot de passe</label>
+        <input maxlength="10" placeholder="Saisir votre mot de passe" type="password" id="mdp1" class="saisie">
+     
+        <br>
+     
+ 
+        <label for="">Confirmation</label>
+        <input maxlength="10" placeholder="Confirmer votre mot de passe" type="password" id="mdp2" class="saisie">
+  
+     <br>
+
+       <label for="">Adresse mail</label>
+       <input maxlength="30" placeholder="Saisir votre adresse mail" type="email" id="mail1" class="saisie">
+       <br>
+       
+       <label for="">Confirmation Adresse mail</label>
+       <input maxlength="30" placeholder="Confirmer votre adresse mail" type="email" id="mail2" class="saisie">
+     <br>      
+         <label for=""> Date de naissance</label>
+         <input type="date" id="datenaiss" class="saisie">
+
+     <br>
+        <label for="">Languges pratiquées</label>
+        <input  type="checkbox" id="lg1" class="saisie">: Anglais
+        <input  type="checkbox" id="lg2" class="saisie">: Espanol
+    
+
+     <br> 
+     
+         <label for="">Identité</label>
+         <input name="ide" type="radio" checked="checked" id="ide1" class="saisie">: Masculin
+         <input name="ide" type="radio" id="ide2" class="saisie">: Féminin
+         <input name="ide" type="radio" id="ide3" class="saisie">: Autre
+         <br>
+         <!-- liste déroulante -->
+         <br>
+         <label for="">Formation choisie</label>
+         <select name="" id="listform" class="saisie">
+             <option value="">DWWM</option>
+             <option value="">CDA</option>
+             <option value="">TAI</option>
+         </select>
+
+         <br>
+
+         <!-- zone de texte multilignes -->
+         <br>
+         <label for="">Motivation</label>
+         <textarea name="" id="area" cols="30" rows="5" class="saisie"></textarea>          
+         <br>
+      <div align="center">
+         <button type="button" id="valider" class="saisie">Valider</button>
+      </div>
+      </form> 
+</body>
+</html>
